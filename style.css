@@ -1,0 +1,75 @@
+.x1-maintenance-page * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('./assets/GothamBold.otf') format('opentype');
+}
+
+.x1-maintenance-background {
+    background-image: url(./assets/x1_background_desktop.jpg);
+    background-size: cover; /* Cover the entire area of the element */
+    background-position: center; /* Center the image in the element */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    width: 100%; /* Stretch to the full width of the viewport */
+    min-height: 100vh; /* Minimum height to cover the viewport height */
+    position: fixed; /* Optional: Fix the position relative to the viewport */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Optional: Ensure it stays in the background */
+}
+
+.x1-maintenance{
+    display: flex; /* Make this a flex container */
+    align-items: center;
+    justify-content: center; /* Align content to the left */
+    flex-direction: column;
+    width: 50%;
+}
+
+.x1-maintenance .x1-logo {
+    display: flex; /* Make this a flex container */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding-top: 150px;
+}
+
+.x1-maintenance .x1-logo img {
+    height: 40%;
+    width: 40%;
+    object-fit: contain; /* This will ensure the image fits within the div without stretching */
+}
+
+.x1-maintenance .x1-content {
+    font-family: "Gotham Bold";
+    font-size: 1.25rem;
+    color: #ffffff;
+    padding-top: 110px;
+}
+
+.x1-maintenance .x1-subcontent {
+    font-family: "Gotham Bold";
+    color: #ffffff;
+    padding-top: 41px;
+}
+
+.x1-maintenance .cta-button{
+    padding-top: 75px;
+}
+
+.x1-maintenance .cta-button button {
+    font-family: "Gotham Bold";
+    color: #ffffff;
+    background-color: #ffa803;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    border: none; /* This will remove any borders */
+    padding: 15px 45px; /* Adjust padding as needed */
+    font-size: 1.4rem; /* Adjust font size as needed */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+}
+
+
