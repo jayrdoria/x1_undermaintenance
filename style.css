@@ -48,12 +48,14 @@
     font-size: 1.25rem;
     color: #ffffff;
     padding-top: 110px;
+    text-align: center;
 }
 
 .x1-maintenance .x1-subcontent {
     font-family: "Gotham Bold";
     color: #ffffff;
     padding-top: 41px;
+    text-align: center;
 }
 
 .x1-maintenance .cta-button{
@@ -72,4 +74,115 @@
     cursor: pointer; /* Change cursor to indicate it's clickable */
 }
 
+@media (max-width: 1440px) {
+    .x1-maintenance .x1-logo img {
+        height: 50%;
+        width: 50%;
+        object-fit: contain; /* This will ensure the image fits within the div without stretching */
+    }
+    .x1-maintenance .x1-content {     
+        font-size: 1rem;      
+        padding-top: 52px;
+    }
+    
+    .x1-maintenance .x1-subcontent {
+        font-size: .9rem;  
+        padding-top: 38px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .x1-maintenance .x1-logo img {
+        height: 70%;
+        width: 70%;
+        object-fit: contain; /* This will ensure the image fits within the div without stretching */
+    }
+    .x1-maintenance .cta-button button {
+        font-size: 1rem; /* Adjust font size as needed */
+        padding: 15px 35px; /* Adjust padding as needed */
+    }
+}
+
+@media (max-width: 768px) {
+    .x1-maintenance .x1-logo img {
+        height: 80%;
+        width: 80%;
+        object-fit: contain; /* This will ensure the image fits within the div without stretching */
+    }
+    .x1-maintenance .x1-content {     
+        font-size: .9rem;      
+        padding-top: 52px;
+    }
+    
+    .x1-maintenance .x1-subcontent {
+        font-size: .75rem;  
+        padding: 35px 10px 0 10px; 
+    }
+    .x1-maintenance .cta-button button {
+        font-size: 1rem; /* Adjust font size as needed */
+        padding: 10px 25px; /* Adjust padding as needed */
+    }
+}
+
+@media (max-width: 576px) {
+    .x1-maintenance-background {
+        background-image: url(./assets/x1_background_mobile.jpg);
+    }
+    .x1-maintenance{
+        width: 100%;
+    }
+    .x1-maintenance .x1-logo {
+        padding-top: 3vh;
+    }
+    .x1-maintenance .x1-logo img {
+        height: 70%;
+        width: 70%;
+        object-fit: contain; /* This will ensure the image fits within the div without stretching */
+    }
+    .x1-maintenance .x1-content {     
+        font-size: 1rem; 
+        padding-top: 40px;
+    }
+    .x1-maintenance .x1-subcontent {
+        font-size: .75rem;  
+        padding-top: 40px;
+    }
+    .x1-maintenance .cta-button{
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 430px) {
+    .x1-maintenance .x1-content {     
+        font-size: .75rem; 
+        padding-top: 40px;
+    }
+    .x1-maintenance .x1-subcontent {
+        font-size: .6rem;  
+        padding: 35px;
+    }
+    .x1-maintenance .cta-button{
+        padding-top: 10px;
+    }
+    .x1-maintenance .cta-button button {
+        font-size: .8rem; /* Adjust font size as needed */
+        padding: 10px 30px; /* Adjust padding as needed */
+    }
+}
+
+@media (max-width: 375px) {
+    .x1-maintenance .x1-content {     
+        font-size: .65rem; 
+        
+    }
+    .x1-maintenance .x1-subcontent {
+        font-size: .55rem;  
+       
+    }
+    .x1-maintenance .cta-button button {
+        font-size: .8rem; /* Adjust font size as needed */
+        padding: 10px 20px; /* Adjust padding as needed */
+    }
+}
 
